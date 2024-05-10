@@ -1,4 +1,5 @@
 ## Smartly Dressed Addresses
+![SmaDra Logo](http://neiman.co.il/images/SmaDra-pfp.png)
 
 Smartly Dressed Addresses, or "SmaDra", is a smart contract collecting zk-claims (such as `human` or `adult`) for addresses. Each claim is backed by a zk-certificate that is cryptographically verified on-chain. The claims are  known to be true, under certain assumptions, without revealing anything about the address owner.
 
