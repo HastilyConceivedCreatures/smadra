@@ -36,7 +36,7 @@ contract VerifyClaimScript is Script {
         bytes32[] memory morePublicInput;
 
         // Make a claim
-        smaDra.claim(
+        smaDra.submitClaim(
             proof,
             1742878483,
             2,

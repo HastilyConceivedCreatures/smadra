@@ -29,7 +29,7 @@ contract SmaDra is Ownable {
         claimTypes[ClaimType] = IVerifyClaim(prover);
     }
 
-    function claim(
+    function submitClaim(
         bytes calldata proof, 
         uint256 verifiedForDate,
         uint256 strength,
