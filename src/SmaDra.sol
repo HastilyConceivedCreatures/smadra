@@ -5,7 +5,7 @@ import "openzeppelin-contracts/contracts/access/Ownable.sol";
 import "src/interfaces/IVerifyClaim.sol";
 
 
-contract ClaimSystem is Ownable {
+contract SmaDra is Ownable {
     // mapping claim type to hash of trust kernel
     mapping(uint256 => bytes32) public trustHashes;
 
