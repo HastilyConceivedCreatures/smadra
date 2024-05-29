@@ -28,14 +28,7 @@ contract VerifyClaim is IVerifyClaim {
 		if (strength == 2 && claimType == 2) {
 			bytes32[] memory publicInputs = new bytes32[](3);
 
-      bytes32 claimerAddessBytes = bytes32(uint256(uint160(claimerAddess)) << 96);
-
-      uint256 test = 1390849295786071768276380950238675083608645509734;
-      claimerAddessBytes = bytes32(test);
-
-      console.logBytes32(claimerAddessBytes);
-      console.logBytes32(trustKernelHash);
-      console.logBytes32(bytes32(verifiedForDate));
+      bytes32 claimerAddessBytes = bytes32(uint256(uint160(claimerAddess)));
 
 			publicInputs[0] = claimerAddessBytes;
 			publicInputs[1] = trustKernelHash;
