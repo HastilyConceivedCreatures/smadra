@@ -1,0 +1,5 @@
+# Ignore the broadcast folder
+broadcast/
+
+# Ignore the cache folder
+cache/
